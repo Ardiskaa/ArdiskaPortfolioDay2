@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto:wght@700&display=swap');
+
+
+
+
+
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #19a7ce;
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
+span{
+  color: #19a7ce;
+}
+
+
+.hero {
+  padding-top: 6rem;
+  background-color:#064663;
+}
+
+@keyframes moveRight {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(50px); }
+  100% { transform: translateX(0); }
+}
+
+#movingImage {
+  animation: moveRight 3s infinite; 
+}
+
+#projects {
+  background-color:#064663;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 20px; 
+  margin-right: 20px; 
+}
+
+.contact a {
+  margin: 0 20px;
+section{
+  padding-top:5rem;
+}
+}
